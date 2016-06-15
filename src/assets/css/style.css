@@ -1,0 +1,28 @@
+body{
+  margin: 20px 0;
+}
+.wrapper{
+  width: 1240px;
+  margin: 50px auto;
+}
+ul{
+  list-style-type: none;
+}
+.options{
+  width: 20%;
+}
+ul li{
+  border: 2px solid #369;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+ul li img{
+  padding-bottom: 10px;
+  border: 1px solid #369;
+  border-radius: 12px;
+}
+.update{
+  margin-left: 25px;
+}

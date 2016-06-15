@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BikeShop</title>
+</head>
+<body ng-app="app">
+    <div class="wrapper row">
+      <div class="page-header">
+          <h1>Bikes shop table</h1>
+      </div>
+      <div class="col-md-8">
+        <bikes></bikes>
+        <form role='form'>
+          <div class='form-group'>
+              <label>Title:</label>
+              <input class='form-control' ng-model='newBike.title' type='text'>
+          </div>
+          <div class='form-group'>
+              <label>Year</label>
+              <input class='form-control' ng-model='newBike.year' type='number'>
+          </div>
+          <div class='form-group'>
+              <label>Color</label>
+              <input class='form-control' ng-model='newBike.color' type='text'>
+          </div>
+          <div class='form-group'>
+              <label>price</label>
+              <input class='form-control' ng-model='newBike.price' type='number'>
+          </div>
+          <button class='btn btn-primary' ng-click='$ctrl.create(newBike)'>Save</button>
+        </form>
+        <add-form></add-form>
+        <p>
+          <img src="assets/img/1.jpg" alt="" />
+          <img src="assets/img/2.jpg" alt="" />
+        </p>
+      </div>
+      <div class="col-md-4">
+        <bike></bike>
+      </div>
+    </div>
+
+
+
+</body>
+</html>
