@@ -1,3 +1,26 @@
 # BikeShopProject
 
-git clone https://github.com/mishakor23/BikeShopProject.git
+### Version
+0.0.2
+
+### Installation
+
+You need json-server installed globally:
+
+```sh
+$ npm install -g json-server
+```
+
+```sh
+$ git clone git@github.com:mishakor23/BikeShopProject.git
+$ cd BikeShopProject/db
+$ json-server --watch data.json
+```
+Open new terminal in BikeShopProject directory
+```sh
+$ npm install
+$ webpack-dev-server
+```
+
+Open in browser http://localhost:8080/
+
