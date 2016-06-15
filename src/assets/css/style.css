@@ -26,3 +26,12 @@ ul li img{
 .update{
   margin-left: 25px;
 }
+tr img:hover{
+  width: 300px;
+  height: 200px;
+  position: fixed;
+  margin-left: -150px;
+  margin-top: -100px;
+  border: 1px solid #369;
+  border-radius: 12px;
+}

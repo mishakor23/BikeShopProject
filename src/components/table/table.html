@@ -1,0 +1,38 @@
+<table class="table">
+  <thead>
+      <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Year</th>
+          <th>Color</th>
+          <th>Price</th>
+          <th>Photo</th>
+          <th>Options</th>
+      </tr>
+  </thead>
+  <tbody ng-repeat="bike in $ctrl.data track by $index">
+      <tr ng-if='bike != $ctrl.activeBike'>
+          <td ng-bind="$index + 1"></td>
+          <td ng-bind="bike.title"></td>
+          <td ng-bind="bike.year"></td>
+          <td ng-bind="bike.color"></td>
+          <td ng-bind="bike.price | currency"></td>
+          <td><img ng-src="{{bike.photo}}" alt="" / width="60" height="40"></td>
+          <td class="options">
+            <a class='btn btn-primary' ng-click='$ctrl.edit(bike)'> Edit </a>
+            <a class='btn btn-danger' ng-click='$ctrl.delete(bike)'> Delete </a>
+          </td>
+      </tr>
+      <tr ng-if='bike == $ctrl.activeBike'>
+        <td>{{ bike.id }}</td>
+        <td><input class='form-control' ng-model='bike.title' type='text'></td>
+        <td><input class='form-control' ng-model='bike.year' type='text'></td>
+        <td><input class='form-control' ng-model='bike.color' type='text'></td>
+        <td><input class='form-control' ng-model='bike.price' type='text'></td>
+        <td><input class='form-control' ng-model='bike.photo' type='text'></td>
+        <td>
+          <a class='btn btn-primary update' ng-click='$ctrl.update(bike)'> Update </a>
+        </td>
+    </tr>
+  </tbody>
+</table>

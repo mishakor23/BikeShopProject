@@ -1,0 +1,52 @@
+{
+  "bikes": [
+    {
+      "id": 3,
+      "title": "Cronus",
+      "color": "white&blue",
+      "photo": "http://velogo.ru/upload/iblock/c4e/300x200xc4e4b3a007834f9516e111cf7eee730c.jpg.pagespeed.ic.PPtrNHVGXg.jpg",
+      "price": 280,
+      "year": 2014
+    },
+    {
+      "id": 4,
+      "title": "Optima",
+      "color": "blue",
+      "photo": "https://69.img.avito.st/640x480/2576418869.jpg",
+      "price": 580,
+      "year": 2016
+    },
+    {
+      "title": "Formula",
+      "year": 2016,
+      "color": "Yellow",
+      "price": 340,
+      "photo": "http://prokatt.com/wp-content/uploads/2015/03/Optima-F1-300x200.jpg",
+      "id": 5
+    },
+    {
+      "title": "Author",
+      "year": 2014,
+      "color": "blue",
+      "price": 380,
+      "photo": "http://alkatrion.com/wp-content/uploads/2010/05/BikeSkodaMotorsport.jpg",
+      "id": 6
+    },
+    {
+      "title": "gdsfgdsfg",
+      "year": 345345,
+      "color": "sdfsadf",
+      "price": 345345,
+      "photo": "http://veliki.com.ua/files/2014/05_20/20_37/u_files_store_9_291.jpg",
+      "id": 7
+    },
+    {
+      "title": "sdfsdf",
+      "year": 23234,
+      "color": "dfsde",
+      "price": 4234234,
+      "photo": "http://www.raut.ru/files/tato/desember/last/gornij_velosiped02.jpg",
+      "id": 12
+    }
+  ]
+}

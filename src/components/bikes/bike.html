@@ -1,0 +1,9 @@
+<ul>
+  <li ng-repeat="bike in $ctrl.data">
+    <img ng-src="{{bike.photo}}" alt="" />
+    <p>Модель: <span ng-bind="bike.title"></span></p>
+    <p>Год выпуска: <span ng-bind="bike.year"></span></p>
+    <p>Цвет: <span ng-bind="bike.color"></span></p>
+    <p>Цена: <span ng-bind="bike.price | currency"></span></p>
+  </li>
+</ul>
