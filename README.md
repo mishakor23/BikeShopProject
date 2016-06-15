@@ -12,7 +12,7 @@ $ npm install -g json-server
 ```
 
 ```sh
-$ git clone git@github.com:mishakor23/BikeShopProject.git
+$ git clone https://github.com/mishakor23/BikeShopProject.git
 $ cd BikeShopProject/db
 $ json-server --watch data.json
 ```
