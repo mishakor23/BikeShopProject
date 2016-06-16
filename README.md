@@ -5,10 +5,11 @@
 
 ### Installation
 
-You need json-server installed globally:
+You need json-server and webpack-dev-server installed globally:
 
 ```sh
 $ npm install -g json-server
+$ npm install -g webpack-dev-server
 ```
 
 ```sh

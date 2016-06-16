@@ -24,7 +24,7 @@
           </td>
       </tr>
       <tr ng-if='bike == $ctrl.activeBike'>
-        <td>{{ bike.id }}</td>
+        <td ng-bind="$index + 1"></td>
         <td><input class='form-control' ng-model='bike.title' type='text'></td>
         <td><input class='form-control' ng-model='bike.year' type='text'></td>
         <td><input class='form-control' ng-model='bike.color' type='text'></td>

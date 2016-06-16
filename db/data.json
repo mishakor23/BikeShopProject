@@ -1,7 +1,7 @@
 {
   "bikes": [
     {
-      "id": 3,
+      "id": 1,
       "title": "Cronus",
       "color": "white&blue",
       "photo": "http://velogo.ru/upload/iblock/c4e/300x200xc4e4b3a007834f9516e111cf7eee730c.jpg.pagespeed.ic.PPtrNHVGXg.jpg",
@@ -9,44 +9,76 @@
       "year": 2014
     },
     {
-      "id": 4,
+      "id": 2,
       "title": "Optima",
       "color": "blue",
-      "photo": "https://69.img.avito.st/640x480/2576418869.jpg",
+      "photo": "https://cdn.riastatic.com/photosnew/general/adv_photos/otlychnyy-dvukhpodvesnyk-26-optima-eclipse-shimano-monobloky__40232523b.jpg",
       "price": 580,
       "year": 2016
     },
     {
-      "title": "Formula",
+      "title": "Scott",
       "year": 2016,
-      "color": "Yellow",
+      "color": "Black",
       "price": 340,
-      "photo": "http://prokatt.com/wp-content/uploads/2015/03/Optima-F1-300x200.jpg",
+      "photo": "http://www.rent-a-bike.net/uploads/tinymce/imagemanager/biciclette_noleggio/s30.jpg",
+      "id": 3
+    },
+    {
+      "title": "Pride",
+      "year": 2014,
+      "color": "white",
+      "price": 380,
+      "photo": "http://easy-cycling.com/gif/pride_bianka.jpg",
+      "id": 4
+    },
+    {
+      "title": "Formula",
+      "year": 2013,
+      "color": "black&green",
+      "price": 180,
+      "photo": "http://deporte.com.ua/wp-content/uploads/2016/02/Velosiped-Formula-DYNAMITE-sero-salatnyj-2016-300x200.jpg",
       "id": 5
     },
     {
-      "title": "Author",
-      "year": 2014,
-      "color": "blue",
-      "price": 380,
-      "photo": "http://alkatrion.com/wp-content/uploads/2010/05/BikeSkodaMotorsport.jpg",
+      "title": "Ardis",
+      "year": 2012,
+      "color": "grey",
+      "price": 580,
+      "photo": "http://images.zakupka.com/i/firms/27/52/52492/velosiped-ardis-28-tour-m-ctb-s-bagazhnikom_75bd24114946e64_300x300.jpg",
       "id": 6
     },
     {
-      "title": "gdsfgdsfg",
-      "year": 345345,
-      "color": "sdfsadf",
-      "price": 345345,
-      "photo": "http://veliki.com.ua/files/2014/05_20/20_37/u_files_store_9_291.jpg",
+      "title": "Cannondale",
+      "year": 2016,
+      "color": "black&white",
+      "price": 620,
+      "photo": "http://www.raut.ru/files/tato/desember/last/gornij_velosiped02.jpg",
       "id": 7
     },
     {
-      "title": "sdfsdf",
-      "year": 23234,
-      "color": "dfsde",
-      "price": 4234234,
-      "photo": "http://www.raut.ru/files/tato/desember/last/gornij_velosiped02.jpg",
-      "id": 12
+      "title": "Kestrel",
+      "year": 2016,
+      "color": "black",
+      "price": 1860,
+      "photo": "http://ecx.images-amazon.com/images/I/51Px5dHNa0L._SX300_QL70_.jpg",
+      "id": 8
+    },
+    {
+      "title": "BMW",
+      "year": 2016,
+      "color": "grey",
+      "price": 2420,
+      "photo": "http://www.autodealer.ua/upload/iblock/bdc/bdc9b6424b49261350d6a1ba84c48b80.jpg",
+      "id": 9
+    },
+    {
+      "photo": "http://images.satom.ru/i/firms/28/23/23679/lorak-lx-20_062e04910d6b7af_300x300_1.jpg",
+      "title": "Lorak",
+      "year": 2014,
+      "color": "black&yellow",
+      "price": 270,
+      "id": 10
     }
   ]
 }
