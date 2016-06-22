@@ -2,11 +2,11 @@
   "bikes": [
     {
       "id": 1,
-      "title": "Cronus",
+      "title": "Optima",
       "color": "white&blue",
       "photo": "http://velogo.ru/upload/iblock/c4e/300x200xc4e4b3a007834f9516e111cf7eee730c.jpg.pagespeed.ic.PPtrNHVGXg.jpg",
       "price": 280,
-      "year": 2014
+      "year": 2016
     },
     {
       "id": 2,
@@ -79,6 +79,22 @@
       "color": "black&yellow",
       "price": 270,
       "id": 10
+    },
+    {
+      "title": "Formula",
+      "year": 2016,
+      "color": "red",
+      "price": 250,
+      "photo": "http://caminoways.com/media/bike-cycling-camino-de-santiago-caminoways.png",
+      "id": 11
+    },
+    {
+      "title": "Cannondale",
+      "year": 2015,
+      "color": "Yellow",
+      "price": 280,
+      "photo": "http://i.ebayimg.com/00/s/MjAwWDMwMA==/z/MBsAAOSwDN1UNgII/$_35.JPG?set_id=2",
+      "id": 12
     }
   ]
 }

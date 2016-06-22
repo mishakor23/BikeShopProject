@@ -6,20 +6,13 @@
   </head>
   <body ng-app="app" class="md-skin">
     <div class="wrapper row">
-      <div class="page-header">
+      <div class="page-header text-center">
         <h1>Bikes shop table</h1>
+        <a href="#/table" class="btn btn-primary">Table</a>
+        <a href="#/cards" class="btn btn-primary">Cards</a>
+        <a href="#/form" class="btn btn-primary">Add Form</a>
       </div>
-      <div class="col-md-8">
-        <bikes></bikes>
-        <add-form></add-form>
-        <p>http://alkatrion.com/wp-content/uploads/2010/05/BikeSkodaMotorsport.jpg</p>
-        <p>http://veliki.com.ua/files/2014/05_20/20_37/u_files_store_9_291.jpg</p>
-        <p>https://www.norco.com/img/bikes/121705-1-subcat.png</p>
-        <p>http://www.raut.ru/files/tato/desember/last/gornij_velosiped02.jpg</p>
+        <ui-view></ui-view>
       </div>
-      <div class="col-md-4">
-        <bike></bike>
-      </div>
-    </div>
   </body>
 </html>

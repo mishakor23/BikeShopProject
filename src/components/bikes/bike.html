@@ -1,5 +1,5 @@
-<ul>
-  <li ng-repeat="bike in $ctrl.data">
+<ul class="row">
+  <li ng-repeat="bike in $ctrl.data" class="col-md-4">
     <img ng-src="{{bike.photo}}" alt="" />
     <p>Модель: <span ng-bind="bike.title"></span></p>
     <p>Год выпуска: <span ng-bind="bike.year"></span></p>

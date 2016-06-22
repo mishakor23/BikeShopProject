@@ -5,6 +5,9 @@ body{
   width: 1240px;
   margin: 50px auto;
 }
+.page-header{
+  padding-bottom: 80px;
+}
 ul{
   list-style-type: none;
 }
