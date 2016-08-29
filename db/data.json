@@ -2,7 +2,7 @@
   "bikes": [
     {
       "id": 1,
-      "title": "Optima",
+      "title": "Cronus",
       "color": "white&blue",
       "photo": "http://velogo.ru/upload/iblock/c4e/300x200xc4e4b3a007834f9516e111cf7eee730c.jpg.pagespeed.ic.PPtrNHVGXg.jpg",
       "price": 280,
@@ -13,11 +13,11 @@
       "title": "Optima",
       "color": "blue",
       "photo": "https://cdn.riastatic.com/photosnew/general/adv_photos/otlychnyy-dvukhpodvesnyk-26-optima-eclipse-shimano-monobloky__40232523b.jpg",
-      "price": 580,
+      "price": 1200,
       "year": 2016
     },
     {
-      "title": "Scott",
+      "title": "Bianchi",
       "year": 2016,
       "color": "Black",
       "price": 340,
